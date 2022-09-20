@@ -13,8 +13,8 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - name: Github Pull Request
-        uses: repo-sync/pull-request@master
+      #- name: Github Pull Request
+      #  uses: repo-sync/pull-request@master
 
       # Runs a single command using the runners shell
       - name: Run a one-line script

@@ -15,7 +15,7 @@ jobs:
         run: git pull #TODO: pull from repository
 
       - name: Launch HLS
-        run: echo Hello, world! #TODO: launch HLS
+        run: Vivado hls #TODO: launch HLS
 
       - name: Launch Vivado
         run: echo vivado #TODO: launch Vivado
